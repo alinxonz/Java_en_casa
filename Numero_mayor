@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+public class Numero_mayor {
+
+    public static void main(String[] args) {
+int n1,n2;
+
+System.out.print("Ingrese Numero A");
+Scanner Entrada1=new Scanner(System.in);
+		n1=Entrada1.nextInt();
+		System.out.print("Ingrese Numero B");
+Scanner Entrada2=new Scanner (System.in);
+		n2=Entrada2.nextInt();
+		if (n1>n2)
+			System.out.println("Numero A Es Mayor");
+		if (n2==n1)
+			System.out.println("Numero A y B Son Iguales");	
+		if (n1<n2)
+		System.out.println("Numero B Es Mayor");
+	
+		
+		
+	}
+
+}
