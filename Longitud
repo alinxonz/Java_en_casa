@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class Longitud {
+
+  public static void main(String[] args) {
+double longitud,radio;
+System.out.println("Introduzca el Radio de una Circunferencia");
+Scanner Entrada=new Scanner(System.in);
+radio=Entrada.nextDouble();
+longitud=2*Math.PI*radio;
+System.out.println("La Longitud de la circunferencia es:"+longitud);
+
+	}
+
+}
