@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class Iguales {
+
+  public static void main(String[] args) {
+int num1,num2;	
+Scanner Entrada1=new Scanner(System.in);
+Scanner Entrada2=new Scanner(System.in);
+System.out.println("Introduzca el Primer Numero 1");
+num1=Entrada1.nextInt();
+System.out.println("Introduzca el Primer Numero 2");
+num2=Entrada2.nextInt();
+if (num1==num2)
+	System.out.println("Los numero ingresados Son Iguales");
+else 
+	System.out.println("Los Numero Ingresado Son Diferentes");
+	
+}
+
+	}
+
